@@ -31,8 +31,8 @@ jobs:
         board: 'SunriseLamp.kicad_pcb'
         quickstart: YES
     - name: upload results
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: Production_outputs
-        path: Production
+        path: Production/
         if-no-files-found: warn
