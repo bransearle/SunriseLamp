@@ -18,7 +18,7 @@ jobs:
   Documentation:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2_k6
+    - uses: actions/checkout@v2
     - uses: INTI-CMNB/KiBot@v2_k6
       with:
         # Required - kibot config file
@@ -33,6 +33,6 @@ jobs:
     - name: upload results
       uses: actions/upload-artifact@v2
       with:
-        name: Production
+        name: Production_outputs
         path: Production
         if-no-files-found: warn
