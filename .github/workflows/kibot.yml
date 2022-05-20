@@ -15,24 +15,19 @@ on:
       - '**kibot.yml'
 
 jobs:
-  Documentation:
+  quick:
+    name: "Quick Start (action)"
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v2
+
     - uses: INTI-CMNB/KiBot@v2_k6
       with:
-        # Required - kibot config file
-        config: Production/config.kibot.yaml
-        # optional - prefix to output defined in config
-        dir: Production
-        # optional - schematic file
-        schema: 'SunriseLamp.kicad_sch'
-        # optional - PCB design file
-        board: 'SunriseLamp.kicad_pcb'
         quickstart: YES
+
     - name: upload results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v2
       with:
-        name: Production
-        path: Production/
-        if-no-files-found: warn
+        name: Automatic_outputs
+        path: Generated
