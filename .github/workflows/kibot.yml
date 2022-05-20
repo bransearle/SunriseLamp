@@ -33,6 +33,6 @@ jobs:
     - name: upload results
       uses: actions/upload-artifact@v3
       with:
-        name: Production_outputs
+        name: Production
         path: Production/
         if-no-files-found: warn
