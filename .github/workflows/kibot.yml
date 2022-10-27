@@ -1,36 +1,37 @@
-name: Autogen
+name: AutomaticOutputs
 
 on:
   push:
     paths:
-      - 'Hardware/*.kicad_sch'
-      - 'Hardware/*.kicad_pcb'
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
       - '**.kibot.yaml'
       - '**kibot.yml'
   pull_request:
     paths:
-      - 'Hardware/*.kicad_sch'
-      - 'Hardware/*.kicad_pcb'
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
       - '**.kibot.yaml'
       - '**kibot.yml'
 
 jobs:
   Autogen:
-    name: "Autogen"
+    name: "Outputs"
     runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad6_auto_full:latest
 
-    steps:
-    - uses: actions/checkout@v2
+    steps:    
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: '0'
 
     - uses: INTI-CMNB/KiBot@v2_k6
       with:
-         config: Production/config.kibot.yaml
-         schema: 'SunriseLamp.kicad_sch'
-         board: 'SunriseLamp.kicad_pcb'
-         targets: pdf ibom pcbdraw
-
+         config: config.kibot.yaml
+         schema: 'LogDimmer.kicad_sch'
+         board: 'LogDimmer.kicad_pcb'
     - name: upload results
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
-        name: Automatic_outputs
-        path: Generated
+        name: DesignOutputs
+        path: Output

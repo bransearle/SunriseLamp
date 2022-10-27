@@ -4,8 +4,9 @@
 *.bak
 *.bck
 *-backups
-*.kicad_pcb-bak
-*.sch-bak
+*-bak
+*.cache
+*Output
 *~
 _autosave-*
 *.tmp
