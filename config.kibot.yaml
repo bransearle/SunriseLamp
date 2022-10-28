@@ -202,7 +202,7 @@ outputs:
     old_type: git
     new: HEAD
     new_type: git
-    cache_dir: /mnt/logdimmer/.cache
+    cache_dir: /mnt/sunriselamp/.cache
     add_link_id: true
     copy_instead_of_link: true
 - name: basic_diff_sch
@@ -214,7 +214,7 @@ outputs:
     old_type: git
     new: HEAD
     new_type: git
-    cache_dir: /mnt/logdimmer/.cache
+    cache_dir: /mnt/sunriselamp/.cache
     add_link_id: true
     copy_instead_of_link: true
     pcb: false

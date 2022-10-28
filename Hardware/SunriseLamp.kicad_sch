@@ -483,7 +483,7 @@
       (reference "U9") (unit 1) (value "ESP32-PICO-MINI-02") (footprint "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm")
     )
     (path "/e03b0f56-1755-48ae-848f-a899b33ab61d/6e8dc409-d715-4a9e-94e6-1fc6c339ec29"
-      (reference "Y1") (unit 1) (value "12MHz") (footprint "")
+      (reference "Y1") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
     )
   )
 )

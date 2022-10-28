@@ -28,8 +28,8 @@ jobs:
     - uses: INTI-CMNB/KiBot@v2_k6
       with:
          config: config.kibot.yaml
-         schema: 'LogDimmer.kicad_sch'
-         board: 'LogDimmer.kicad_pcb'
+         schema: 'SunriseLamp.kicad_pro'
+         board: 'SunriseLamp.kicad_pcb'
     - name: upload results
       uses: actions/upload-artifact@v3
       with:
