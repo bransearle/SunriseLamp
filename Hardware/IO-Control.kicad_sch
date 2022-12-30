@@ -2677,7 +2677,7 @@
     (property "Value" "ESP32-PICO-MINI-02" (id 1) (at 176.0094 143.6171 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm" (id 2) (at 173.99 226.06 0)
+    (property "Footprint" "PersonalDiscretes:ESP32-PICO-MINI-02" (id 2) (at 173.99 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-pico-https://www.espressif.com/sites/default/files/documentation/esp32-pico-mini-02_datasheet_en.pdf" (id 3) (at 181.61 139.7 0)
