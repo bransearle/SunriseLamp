@@ -459,12 +459,6 @@
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/9841c2b9-2c46-41fc-8c24-122fa5d20f4a"
       (reference "#PWR017") (unit 1) (value "GND") (footprint "")
     )
-    (path "/7af2029e-2b92-4284-9c35-cc656514173c/b9352096-1dbd-4b34-8959-ea42ca8366a5"
-      (reference "#PWR018") (unit 1) (value "+36V") (footprint "")
-    )
-    (path "/7af2029e-2b92-4284-9c35-cc656514173c/18ad7282-56dc-41c8-8f45-e7b5c4307a13"
-      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
-    )
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/c58e8a3b-4e09-43b3-ae37-a0babce2fdd4"
       (reference "#PWR020") (unit 1) (value "+5V") (footprint "")
     )
@@ -473,9 +467,6 @@
     )
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/e8c494c7-5b04-4d94-ad62-e44760451dcd"
       (reference "#PWR022") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/7af2029e-2b92-4284-9c35-cc656514173c/f6181b4a-72b0-4242-b99a-7ccab2dc0493"
-      (reference "#PWR023") (unit 1) (value "GND") (footprint "")
     )
     (path "/e03b0f56-1755-48ae-848f-a899b33ab61d/57d8cc79-cf18-4d5a-bc87-7a45d0cac6b3"
       (reference "#PWR024") (unit 1) (value "+5V") (footprint "")
@@ -600,12 +591,6 @@
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/68e93e90-6c9f-4df4-a152-689b3093e61f"
       (reference "C14") (unit 1) (value "1u 16V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/7af2029e-2b92-4284-9c35-cc656514173c/9b2243e1-b4a5-4d8d-b925-203eb710e075"
-      (reference "C15") (unit 1) (value "2u2 100V") (footprint "Capacitor_SMD:CP_Elec_6.3x5.4")
-    )
-    (path "/7af2029e-2b92-4284-9c35-cc656514173c/11505a13-4d3e-4fac-b5c2-dbea71f303b2"
-      (reference "C16") (unit 1) (value "1u 16V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/51e17856-b91f-4e53-a204-90c876f5324c"
       (reference "C17") (unit 1) (value "22u TANT") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H")
     )
@@ -651,9 +636,6 @@
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/b216ad16-521f-4f0d-ba53-19b52694bf50"
       (reference "D3") (unit 1) (value "SS310") (footprint "Diode_SMD:D_SMA_Handsoldering")
     )
-    (path "/7af2029e-2b92-4284-9c35-cc656514173c/8a886577-f7da-4fd1-a679-d33988c4b8ea"
-      (reference "D4") (unit 1) (value "SS310") (footprint "Diode_SMD:D_SMA_Handsoldering")
-    )
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/98e19b06-7e2a-47df-a059-001026eee905"
       (reference "D5") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
     )
@@ -696,26 +678,20 @@
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/269b3901-4985-48dd-bb36-3dfe77ba1464"
       (reference "J5") (unit 1) (value "Molex 26013114") (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal")
     )
-    (path "/7af2029e-2b92-4284-9c35-cc656514173c/94cd80bb-b901-4fe9-bb1a-09f8a7fdaa98"
-      (reference "J6") (unit 1) (value "Molex 26013114") (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal")
-    )
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/9f095dd4-7522-4f5e-8dbd-36a8a511cb15"
-      (reference "L1") (unit 1) (value "33u 2A") (footprint "Inductor_SMD:L_SigTra_SC3316F")
+      (reference "L1") (unit 1) (value "33u 2A") (footprint "Inductor_SMD:L_12x12mm_H6mm")
     )
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/af9c1629-2ad1-4863-bca9-fde795f6fc83"
       (reference "L2") (unit 1) (value "20uH >1.2A") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-80xx")
     )
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/d4655a23-c468-4a8b-99e6-64b8fe288202"
-      (reference "L3") (unit 1) (value "33u 2A") (footprint "Inductor_SMD:L_SigTra_SC3316F")
+      (reference "L3") (unit 1) (value "33u 2A") (footprint "Inductor_SMD:L_12x12mm_H6mm")
     )
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/3087a1c5-d46c-45f3-95a7-646bb57ffb67"
       (reference "L4") (unit 1) (value "20uH >0.5A") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-80xx")
     )
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/b5a7b331-0ea6-4406-9acc-d4705a05fbe6"
-      (reference "L5") (unit 1) (value "33u 2A") (footprint "Inductor_SMD:L_SigTra_SC3316F")
-    )
-    (path "/7af2029e-2b92-4284-9c35-cc656514173c/35745192-27d0-434e-8f24-4fa6158c98bd"
-      (reference "L6") (unit 1) (value "33u 2A") (footprint "Inductor_SMD:L_SigTra_SC3316F")
+      (reference "L5") (unit 1) (value "33u 2A") (footprint "Inductor_SMD:L_12x12mm_H6mm")
     )
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/5a897a0b-ac1b-4677-b526-197415c9527b"
       (reference "P1") (unit 1) (value "XT60PW-M") (footprint "PersonalConnectors:AMASS_XT60PW-M")
@@ -776,12 +752,6 @@
     )
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/1f31d788-18e7-4209-9f6d-29d4f834b6dd"
       (reference "R14") (unit 1) (value "20k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/7af2029e-2b92-4284-9c35-cc656514173c/768f38a9-06fc-4dbe-a2f2-8954fd60568d"
-      (reference "R15") (unit 1) (value "3k3") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/7af2029e-2b92-4284-9c35-cc656514173c/28fbd854-edbc-429b-92a2-d93706e7c837"
-      (reference "R16") (unit 1) (value "20k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/e03b0f56-1755-48ae-848f-a899b33ab61d/71a11016-7307-4ca6-a259-57f0b18e6a71"
       (reference "R17") (unit 1) (value "5k1") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -863,9 +833,6 @@
     )
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/815cca05-3ae2-43ea-9015-3b2ab3929998"
       (reference "U6") (unit 1) (value "AMS1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
-    )
-    (path "/7af2029e-2b92-4284-9c35-cc656514173c/8d69fc62-9d7b-47f6-988f-299c7c30953b"
-      (reference "U7") (unit 1) (value "LM3414") (footprint "PersonalDiscretes:TI_SO-PowerPAD-8_HandSolder")
     )
     (path "/e03b0f56-1755-48ae-848f-a899b33ab61d/e2543627-5409-4a7b-8859-04e0792eebb7"
       (reference "U8") (unit 1) (value "CH340G") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
