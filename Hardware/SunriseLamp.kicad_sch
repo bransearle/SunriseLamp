@@ -841,10 +841,10 @@
       (reference "R35") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/e03b0f56-1755-48ae-848f-a899b33ab61d/d9b68b8c-fc85-443c-8171-fbea0c5c3f9d"
-      (reference "SW1") (unit 1) (value "RESET") (footprint "")
+      (reference "SW1") (unit 1) (value "RESET") (footprint "PersonalDiscretes:C&K PTS636-G")
     )
     (path "/e03b0f56-1755-48ae-848f-a899b33ab61d/41c2a4be-1c4a-473d-925c-5bccbb039520"
-      (reference "SW2") (unit 1) (value "FLASH") (footprint "")
+      (reference "SW2") (unit 1) (value "FLASH") (footprint "PersonalDiscretes:C&K PTS636-G")
     )
     (path "/7af2029e-2b92-4284-9c35-cc656514173c/98b2f8bf-6811-4d66-bd2f-34bc21411782"
       (reference "U1") (unit 1) (value "LM3414") (footprint "PersonalDiscretes:TI_SO-PowerPAD-8_HandSolder")

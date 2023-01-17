@@ -7938,6 +7938,29 @@
   (gr_line (start 150 74.25) (end 150 145.75) (layer "Edge.Cuts") (width 0.1) (tstamp bc773273-60ea-4a43-90a7-34001616e6cd))
   (gr_arc (start 150 74.25) (mid 151.244796 71.244796) (end 154.25 70) (layer "Edge.Cuts") (width 0.1) (tstamp c6f9cc45-8507-4285-af1d-3a055ce97eb6))
 
+  (segment (start 210.25 82) (end 210.25 76.25) (width 1.2) (layer "F.Cu") (net 2) (tstamp 4f5cf4ca-0a2f-4cfc-9636-7077bce90f55))
+  (segment (start 210.25 76.25) (end 207.75 73.75) (width 1.2) (layer "F.Cu") (net 2) (tstamp c2fc85d6-b969-44cc-842d-d6b532e5f4fb))
+  (via (at 189.75 75.5) (size 2.4) (drill 1.2) (layers "F.Cu" "B.Cu") (net 2) (tstamp 3c73308c-7076-4668-8621-d5d4be72e88d))
+  (via (at 207.75 73.75) (size 2.4) (drill 1.2) (layers "F.Cu" "B.Cu") (remove_unused_layers) (net 2) (tstamp c1c1faa7-9d87-4e93-8376-7b9890c4f279))
+  (segment (start 207.75 73.75) (end 191.5 73.75) (width 1.2) (layer "In1.Cu") (net 2) (tstamp 8f0aafe4-8fa8-45a4-89f5-6fac4fd70e4b))
+  (segment (start 191.5 73.75) (end 189.75 75.5) (width 1.2) (layer "In1.Cu") (net 2) (tstamp bedec765-1b7c-47db-99cc-80364507ef2b))
+
+  (zone (net 2) (net_name "+36V") (layer "F.Cu") (tstamp 1daf50e5-5c87-415c-9bb2-69cb6063f226) (hatch edge 0.508)
+    (connect_pads thru_hole_only (clearance 0.508))
+    (min_thickness 0.254)
+    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 191.5 81.5)
+        (xy 189 81.5)
+        (xy 188 83)
+        (xy 184.75 83)
+        (xy 184.75 75.75)
+        (xy 186.25 74.25)
+        (xy 191.5 74.25)
+      )
+    )
+  )
   (group "" (id 11212e92-3e2e-410b-89a6-76a62df9e31c)
     (members
       04ecab63-3ba3-4607-adfb-660554b07e19
